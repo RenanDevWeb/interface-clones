@@ -1,0 +1,28 @@
+@media(max-width: 990px){
+  header{
+    padding: 40px;
+  }
+ 
+  header section{
+    padding: 150px 40px;
+  }
+
+  .sci{
+    left: 40px;
+  }
+ header .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .textBox,
+  .content .imgBox {
+    max-width: 100%;
+  }
+  .swiper-slide{
+    height: 300px;
+  }
+  header .navigation{
+    display: none;
+  }
+}
+
